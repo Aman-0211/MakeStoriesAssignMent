@@ -8,7 +8,7 @@ const SignedInLinks = (props) => {
     <div>
       <ul className="right">
         <li>
-          <NavLink to="/create">New Project</NavLink>
+          <NavLink to="/create">New Story</NavLink>
         </li>
         <li>
           <a onClick={props.signOut}>Log Out</a>
